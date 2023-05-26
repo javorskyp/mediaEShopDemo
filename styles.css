@@ -129,7 +129,7 @@ header {
 
 .products {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 50px;
@@ -137,9 +137,8 @@ header {
 }
 
 .product-item {
-  position: relative;
+  position: absolute;
   max-width: 350px;
-  display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
@@ -153,7 +152,7 @@ header {
 
 .product-item-sale-info {
   display: none;
-  position: absolute;
+  position: relative;
   top: 0;
   right: 0;
   background: black;
@@ -178,12 +177,16 @@ header {
 .product-name {
   font-size: 23px;
   font-weight: bold;
+  display: flex;
+  justify-content: center;
 }
 
 .product-description {
+  max-width: 350px;
   color: rgb(94, 94, 94);
   font-size: 15px;
   line-height: 22px;
+  justify-content: center;
 }
 
 .product-price {
@@ -193,6 +196,7 @@ header {
   font-size: 20px;
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 10px;
 }
 
@@ -222,10 +226,12 @@ header {
 }
 
 .product-add-to-basket-btn {
+    display: flex;
+  justify-content: center;
   background: black;
   color: white;
   width: 60%;
-  font-size: 20px;
+  font-size: 15px;
   padding: 10px;
   border-radius: 10px;
   border: none;

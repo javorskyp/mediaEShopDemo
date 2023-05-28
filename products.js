@@ -95,6 +95,15 @@ const products = [
       dolores eaque. Eligendi ab officia minus.`,
       category: "Samsung",
       price: 3399.99,
-      image: "./images/Samsung-s22.jpg",
+      image: "./images/Samsung-s22.jpeg",
     },
+    {
+        id: 10,
+        name: "Motorola G31",
+        description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod,
+        dolores eaque. Eligendi ab officia minus.`,
+        category: "Motorola",
+        price: 3399.99,
+        image: "./images/Motorola-1.jpeg",
+      }
   ];

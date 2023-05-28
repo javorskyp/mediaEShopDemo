@@ -59,7 +59,7 @@ const renderCategories = (items) => {
 
   const categoriesItems = document.querySelector(".categories-items");
 
-  categories = ["wszystkie", ...categories];
+  categories = ["Wszystkie", ...categories];
 
   categories.forEach((category, index) => {
     const newCategory = document.createElement("button");
